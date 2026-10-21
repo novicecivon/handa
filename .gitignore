@@ -218,3 +218,21 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# --- Handa project-specific ---
+
+# Data and model artifacts (never committed)
+data/raw/
+data/interim/
+data/processed/
+*.tif
+*.tiff
+*.gpkg
+*.parquet
+mlruns/
+models/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
